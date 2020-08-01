@@ -14,7 +14,6 @@ function createApolloClient(ctx) {
       headers: {
         cookie: ctx?.req?.headers?.cookie || "",
       },
-      fetch,
     }),
     cache: new InMemoryCache({
       typePolicies: {

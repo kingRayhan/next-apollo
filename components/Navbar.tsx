@@ -14,7 +14,10 @@ const Navbar = () => {
   return (
     <div>
       <Link href="/">
-        <a>Home</a>
+        <a style={{ marginRight: 15 }}>Home</a>
+      </Link>
+      <Link href="/client">
+        <a>Client</a>
       </Link>
 
       <div>{JSON.stringify(data, undefined, 4)}</div>
